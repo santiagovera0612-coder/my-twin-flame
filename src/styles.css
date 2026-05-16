@@ -622,3 +622,24 @@
 .animate-glow-pulse {
   animation: glowPulse 3s ease-in-out infinite;
 }
+
+.input {
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+  background-color: var(--card);
+  padding: 0 0.875rem;
+  font-size: 0.875rem;
+  color: var(--foreground);
+  outline: none;
+  transition: border-color 0.15s;
+}
+.input:focus {
+  border-color: var(--primary);
+}
+textarea.input {
+  height: auto;
+  padding: 0.625rem 0.875rem;
+  resize: vertical;
+}
